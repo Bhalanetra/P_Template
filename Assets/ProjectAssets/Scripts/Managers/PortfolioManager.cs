@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PortfolioManager : MonoBehaviour
 {
+    public static PortfolioManager Instance;
+
     [Space, Header("PORTFOLIO")]
 
     [Space, Header("CONTENT")]
@@ -14,6 +16,14 @@ public class PortfolioManager : MonoBehaviour
 
     [Space]
     public Containers containers;
+
+    [Space]
+    public VideoPlayerManager videoPlayerManager;
+
+    private void Awake()
+    {
+        if(Instance == null) Instance = this;
+    }
 
     private void Start()
     {
@@ -79,5 +89,16 @@ public class PortfolioManager : MonoBehaviour
         ContentContainerBase container = containers.GetContainer(contentBase.contentType);
 
         container.InitializeContent(contentBase);
+    }
+
+
+    public VideoPlayerManager GetVideoPlayer()
+    {
+        return videoPlayerManager;
+    }
+
+    public void ReturnVideoPlayer()
+    {
+        videoPlayerManager.gameObject.SetActive(false);
     }
 }

@@ -25,11 +25,14 @@ public class VideoContentAndPlayer : PoolableObject
 
     public void PlayVideo()
     {
-        PoolableObject poolObject = PoolManager.Instance.SpawnFromPool("VideoPlayer", contentParent, Quaternion.identity);
+        VideoPlayerManager videoPlayer = PortfolioManager.Instance.GetVideoPlayer();
 
-        if(poolObject.TryGetComponent(out VideoPlayerManager videoPlayerManager))
+        if(videoPlayer != null)
         {
-            videoPlayerManager.InitVideo(url);
+            videoPlayer.transform.SetParent(contentParent);
+            videoPlayer.transform.localScale = Vector3.one;
+            videoPlayer.transform.rotation = Quaternion.identity;
+            videoPlayer.gameObject.SetActive(true);
         }
     }
 }

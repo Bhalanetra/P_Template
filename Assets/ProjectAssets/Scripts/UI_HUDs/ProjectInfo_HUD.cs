@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,11 +22,14 @@ public class ProjectInfo_HUD : PoolableObject
 
     private string projectURL;
 
+    public List<GameObject> graphicContents = new List<GameObject>();
 
     public void ApplyContent(Project project)
     {
         projectNameText.text = project.projectName;
         projectDescText.text = project.description;
+
+
 
         if(!string.IsNullOrEmpty(project.url) && UrlHelper.IsValidUrl(project.url))
         {

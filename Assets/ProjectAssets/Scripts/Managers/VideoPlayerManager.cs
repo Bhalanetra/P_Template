@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class VideoPlayerManager : PoolableObject
+public class VideoPlayerManager : MonoBehaviour
 {
     [Header("ELEMENTS")]
     [SerializeField] VideoPlayer videoPlayer;
