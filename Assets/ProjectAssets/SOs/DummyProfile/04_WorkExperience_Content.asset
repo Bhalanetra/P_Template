@@ -12,4 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 293966e9d41a76c438a42a1da962cb3a, type: 3}
   m_Name: 04_WorkExperience_Content
   m_EditorClassIdentifier: 
-  experiances: []
+  experiances:
+  - companyName: Shaanti Ki Dushman
+    joiningDate:
+      year: 2010
+      month: 05
+      day: 10
+    presentlyWorking: 0
+    relievingDate:
+      year: 2011
+      month: 10
+      day: 21
+    responsibilities: '- Kuch nahi, Faltu giri
+
+      - Kuch Aata hi nahi tha.
+
+      -
+      Seekhne ka man nhi kra.'
+  - companyName: Thi ek
+    joiningDate:
+      year: 2017
+      month: May
+      day: 12
+    presentlyWorking: 1
+    relievingDate:
+      year: 
+      month: 
+      day: 
+    responsibilities: '- Ek Ek krke dekhna.
+
+      - Ladkiyan Taadna.
+
+      - Asshkibaazi.'
+  type: 3

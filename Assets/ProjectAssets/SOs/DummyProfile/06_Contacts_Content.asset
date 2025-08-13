@@ -12,4 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31577e1a29d70f146b622b920dfe14f8, type: 3}
   m_Name: 06_Contacts_Content
   m_EditorClassIdentifier: 
-  contacts: []
+  contacts:
+  - socialIcon: {fileID: 21300000, guid: b0f859f4886e553429b36e31ef0d28f7, type: 3}
+    socialName: Facebook
+    contactUrl: 
+  - socialIcon: {fileID: 21300000, guid: 198d512ae7619d34a9e45289f9ba1a0d, type: 3}
+    socialName: Linkedin
+    contactUrl: 
+  type: 5

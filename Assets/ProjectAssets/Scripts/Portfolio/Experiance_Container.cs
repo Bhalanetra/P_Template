@@ -2,15 +2,27 @@ using UnityEngine;
 
 public class Experiance_Container : ContentContainerBase
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Space]
+    [SerializeField] WorkExperience_Content experianceContent;
+    [SerializeField] RectTransform contentParent;
+
+    public override void InitializeContent(ContentBase content)
     {
-        
+        experianceContent = content as WorkExperience_Content;
+
+        base.InitializeContent(content);
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void ApplyContent()
     {
-        
+        foreach (WorkExperiance experiance in experianceContent.experiances)
+        {
+            PoolableObject poolObject = PoolManager.Instance.SpawnFromPool("Experiance_HUD", contentParent, Quaternion.identity);
+
+            if(poolObject.TryGetComponent(out Experiance_HUD experianceHUD))
+            {
+                experianceHUD.ApplyContent(experiance);
+            }
+        }
     }
 }

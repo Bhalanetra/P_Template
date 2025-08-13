@@ -3,15 +3,28 @@ using UnityEngine;
 
 public class ContactInfo_Container : ContentContainerBase
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Space]
+    [SerializeField] Contacts_Content contacts;
+    [SerializeField] RectTransform contentParent;
+
+    public override void InitializeContent(ContentBase content)
     {
-        
+        contacts = content as Contacts_Content;
+
+        base.InitializeContent(content);
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public override void ApplyContent()
     {
-        
+        foreach (ContactInfo contact in contacts.contacts)
+        {
+            PoolableObject poolableObject = PoolManager.Instance.SpawnFromPool("Contact_HUD", contentParent, Quaternion.identity);
+
+            if(poolableObject.TryGetComponent(out Contact_HUD contactHUD))
+            {
+                contactHUD.ApplyContent(contact);
+            }
+        }
     }
 }

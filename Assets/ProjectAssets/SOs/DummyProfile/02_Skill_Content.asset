@@ -13,6 +13,18 @@ MonoBehaviour:
   m_Name: 02_Skill_Content
   m_EditorClassIdentifier: 
   skills:
-  - skillName: 
-    logo: {fileID: 0}
-    subSkills: []
+  - skillName: Unity
+    logo: {fileID: 21300000, guid: 0adae7bcd05777f4a9467c180afed246, type: 3}
+    subSkills:
+    - subSkillName: C#
+      icon: {fileID: 21300000, guid: 9fbcd46b4f9ddfd46b5255dea297bf9c, type: 3}
+    - subSkillName: Level Design
+      icon: {fileID: 21300000, guid: 4b108012ea0005f4ba7b371dcc181d9a, type: 3}
+  - skillName: After Effects
+    logo: {fileID: 21300000, guid: 3daf8e8ff1b300f469aff5ae3eb92af3, type: 3}
+    subSkills:
+    - subSkillName: This
+      icon: {fileID: 21300000, guid: 7651b62fb9e805d4fb89de7decd17f8b, type: 3}
+    - subSkillName: That
+      icon: {fileID: 21300000, guid: b255ca9a9afb7654886df3c7e84ba50c, type: 3}
+  type: 1
