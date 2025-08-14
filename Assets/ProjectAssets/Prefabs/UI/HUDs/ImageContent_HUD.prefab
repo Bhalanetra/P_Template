@@ -167,3 +167,4 @@ MonoBehaviour:
   poolID: ImageContent_HUD
   isInPool: 1
   image: {fileID: 6366009083204694856}
+  self: {fileID: 3638883654740173172}

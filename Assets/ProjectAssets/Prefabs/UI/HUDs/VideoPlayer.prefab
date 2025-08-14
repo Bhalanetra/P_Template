@@ -122,9 +122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d400ead57ce478b40ad1b4fbe35ca1f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolID: VideoPlayer
-  isInPool: 1
   videoPlayer: {fileID: 7414010632655442781}
+  self: {fileID: 8565997675391069194}
 --- !u!1 &8765908853823801796
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +191,7 @@ VideoPlayer:
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 0
-  m_SkipOnDrop: 1
+  m_SkipOnDrop: 0
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0

@@ -18,8 +18,9 @@ public class Projects_Container : ContentContainerBase
         {
             PoolableObject poolObject = PoolManager.Instance.SpawnFromPool("Project_HUD", contentParent, Quaternion.identity);
 
-            if(TryGetComponent(out ProjectInfo_HUD projectInfoHUD))
+            if(poolObject.TryGetComponent(out ProjectInfo_HUD projectInfoHUD))
             {
+                Debug.Log($"Found Project Info HUD and Passing Project : {project.projectName}");
                 projectInfoHUD.ApplyContent(project);
             }
         }

@@ -17,7 +17,7 @@ public class Skills_Container : ContentContainerBase
     {
         foreach (Skill skill in skill_Content.skills)
         {
-            PoolableObject poolObject = PoolManager.Instance.SpawnFromPool("Skill_HUD", contentParent, Quaternion.identity);
+            PoolableObject poolObject = PoolManager.Instance.SpawnFromPool("Skill_hud", contentParent, Quaternion.identity);
 
             if(poolObject.TryGetComponent(out Skill_HUD skillHUD))
             {

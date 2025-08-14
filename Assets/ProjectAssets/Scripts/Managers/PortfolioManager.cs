@@ -4,7 +4,15 @@ public class PortfolioManager : MonoBehaviour
 {
     public static PortfolioManager Instance;
 
-    [Space, Header("PORTFOLIO")]
+
+    [Header("PORTFOLIO")]
+    [Tooltip("Google drive or link to download your cv from.")]
+    [SerializeField] string cvUrl;
+    [Tooltip("Your e-mail that you want to recieve mails on.")]
+    [SerializeField] string email;
+
+    public string CvUrl => cvUrl;
+    public string Email => email;
 
     [Space, Header("CONTENT")]
     public AboutMe_Content aboutMe;
@@ -99,6 +107,7 @@ public class PortfolioManager : MonoBehaviour
 
     public void ReturnVideoPlayer()
     {
+        if (videoPlayerManager.IsPlaying()) videoPlayerManager.StopVideo();
         videoPlayerManager.gameObject.SetActive(false);
     }
 }

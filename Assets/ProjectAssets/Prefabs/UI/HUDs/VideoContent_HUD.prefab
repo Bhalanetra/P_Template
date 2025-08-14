@@ -93,6 +93,7 @@ MonoBehaviour:
   isInPool: 1
   thumbnail: {fileID: 4566980049750577921}
   playButton: {fileID: 3350839140264699227}
+  self: {fileID: 2420806742622775491}
   contentParent: {fileID: 1501797579704151719}
 --- !u!1 &4455186515095707019
 GameObject:
@@ -229,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.20125782, g: 0.20125782, b: 0.20125782, a: 0.8980392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8980392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
