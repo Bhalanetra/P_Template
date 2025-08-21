@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec2998dedc7aa349ac941e5884c15bf, type: 3}
+  m_Name: 03_Projects_Content
+  m_EditorClassIdentifier: 
+  projects:
+  - projectName: Oasis Metaverse
+    images:
+    - {fileID: 21300000, guid: d06d78a4a9759434ea2a2d409273138d, type: 3}
+    - {fileID: 21300000, guid: 7088787461e12e543a46ed7ce9463884, type: 3}
+    - {fileID: 21300000, guid: 6f8812c8257955347b21f35701aa60b1, type: 3}
+    - {fileID: 21300000, guid: 9acd9ab1f2c29e04bb2345759a9efee4, type: 3}
+    - {fileID: 21300000, guid: e016b606eefcf7b43aa4bb873d5fc1ea, type: 3}
+    videoFiles: []
+    description: High quality Stripper Club Environment for the user to explore the
+      stripper poles and variety of strippers to see their Dance Emotes. Pay in-game
+      money to see stripper's dance. Buy in-game money using your real-time crypto
+      wallet.
+    url: https://oasismetaverse.ai/#home
+  - projectName: Piano Play
+    images:
+    - {fileID: 21300000, guid: f2aec128900c7be42a0d3b1f1321e88c, type: 3}
+    - {fileID: 21300000, guid: 62932836ee38bab44834d967a3d8c66e, type: 3}
+    - {fileID: 21300000, guid: cf97af249bb1bf141a499960d46d923c, type: 3}
+    - {fileID: 21300000, guid: ab72a455ddce8c14f81c6d4d4b73653b, type: 3}
+    - {fileID: 21300000, guid: afad939202fc83042b91f8ea4f0e9ef3, type: 3}
+    - {fileID: 21300000, guid: 0de9b2524caa59c47b39bf97e802db68, type: 3}
+    - {fileID: 21300000, guid: b9f8083404689da45866cc79cdc3c7c6, type: 3}
+    - {fileID: 21300000, guid: 7d6c59290874b7042aa645085bdac965, type: 3}
+    - {fileID: 21300000, guid: b26bc1232257f324abd720629c49d734, type: 3}
+    videoFiles: []
+    description: Learning App for kids. Learn Low & High sounds from the screen then
+      answer the quiz questions. Learn sounds of Piano and then play the sound with
+      song playing on the screen with lyrics. Alot of activities for the kids to
+      learn the things in interactive way and interactive exercises to complete.
+    url: 
+  type: 2
