@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PortfolioManager : MonoBehaviour
@@ -33,8 +34,9 @@ public class PortfolioManager : MonoBehaviour
         if(Instance == null) Instance = this;
     }
 
-    private void Start()
+    public IEnumerator Start()
     {
+        yield return new WaitForEndOfFrame();
         LoadProfile();
     }
 

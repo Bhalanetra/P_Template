@@ -3160,92 +3160,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 357666048713567663, guid: 37ff6cca588ba794ea6c121657474124, type: 3}
   m_PrefabInstance: {fileID: 48736367518162878}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1478472237
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1478472240}
-  - component: {fileID: 1478472239}
-  - component: {fileID: 1478472238}
-  m_Layer: 0
-  m_Name: '|| POOLMANAGER ||'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1478472238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478472237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b3d0a44b046ba3459c98c330b082388, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _poolData:
-  - Id: Skill_hud
-    Prefab: {fileID: 2703175094487287907, guid: bbf58915d7dc13f43909b379a3de4618, type: 3}
-    DefaultCapacity: 0
-    MaxSize: 5
-  - Id: Subskill_HUD
-    Prefab: {fileID: 2083025756390942296, guid: 59d6345c3e3748341814e6a97210fb79, type: 3}
-    DefaultCapacity: 0
-    MaxSize: 5
-  - Id: Project_HUD
-    Prefab: {fileID: 9116289180773904522, guid: 5a5f7441c6c08904384f13b77f2a054b, type: 3}
-    DefaultCapacity: 0
-    MaxSize: 5
-  - Id: Experiance_HUD
-    Prefab: {fileID: 7487210900066444496, guid: b59e4c8d0ff80ef4186a55ece046d863, type: 3}
-    DefaultCapacity: 0
-    MaxSize: 5
-  - Id: Contact_HUD
-    Prefab: {fileID: 6565003357642330940, guid: 37ff6cca588ba794ea6c121657474124, type: 3}
-    DefaultCapacity: 0
-    MaxSize: 5
-  - Id: ImageContent_HUD
-    Prefab: {fileID: 1730860061069728315, guid: f9e86dfdf2d98a441826ef9772823630, type: 3}
-    DefaultCapacity: 0
-    MaxSize: 5
-  - Id: VideoContent_HUD
-    Prefab: {fileID: 5891960855604185195, guid: d8f2e54d647063b438fce10ceb4a2819, type: 3}
-    DefaultCapacity: 0
-    MaxSize: 5
---- !u!114 &1478472239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478472237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df3dada983f2e2f418ef717cfabc72e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1478472240
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478472237}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1615347425
 GameObject:
   m_ObjectHideFlags: 0
@@ -3926,6 +3840,92 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943473138}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1983033229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1983033232}
+  - component: {fileID: 1983033231}
+  - component: {fileID: 1983033230}
+  m_Layer: 0
+  m_Name: '|| POOLMANAGER ||'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1983033230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983033229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b3d0a44b046ba3459c98c330b082388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _poolData:
+  - Id: Subskill_HUD
+    Prefab: {fileID: 2083025756390942296, guid: 59d6345c3e3748341814e6a97210fb79, type: 3}
+    DefaultCapacity: 1
+    MaxSize: 5
+  - Id: Project_HUD
+    Prefab: {fileID: 9116289180773904522, guid: 5a5f7441c6c08904384f13b77f2a054b, type: 3}
+    DefaultCapacity: 1
+    MaxSize: 5
+  - Id: Experiance_HUD
+    Prefab: {fileID: 7487210900066444496, guid: b59e4c8d0ff80ef4186a55ece046d863, type: 3}
+    DefaultCapacity: 1
+    MaxSize: 5
+  - Id: Contact_HUD
+    Prefab: {fileID: 6565003357642330940, guid: 37ff6cca588ba794ea6c121657474124, type: 3}
+    DefaultCapacity: 1
+    MaxSize: 5
+  - Id: ImageContent_HUD
+    Prefab: {fileID: 1730860061069728315, guid: f9e86dfdf2d98a441826ef9772823630, type: 3}
+    DefaultCapacity: 1
+    MaxSize: 5
+  - Id: VideoContent_HUD
+    Prefab: {fileID: 5891960855604185195, guid: d8f2e54d647063b438fce10ceb4a2819, type: 3}
+    DefaultCapacity: 1
+    MaxSize: 5
+  - Id: Skill_hud
+    Prefab: {fileID: 2703175094487287907, guid: bbf58915d7dc13f43909b379a3de4618, type: 3}
+    DefaultCapacity: 1
+    MaxSize: 5
+--- !u!114 &1983033231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983033229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3dada983f2e2f418ef717cfabc72e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1983033232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983033229}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4699,4 +4699,4 @@ SceneRoots:
   - {fileID: 1943473141}
   - {fileID: 790434955}
   - {fileID: 2130746406}
-  - {fileID: 1478472240}
+  - {fileID: 1983033232}
