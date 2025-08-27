@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f1790a32be96d4d99260713b61cdef, type: 3}
   m_Name: 01_AboutMe
   m_EditorClassIdentifier: 
-  profileImage: {fileID: 21300000, guid: 465cd5e8959465b4193346c419be240f, type: 3}
+  profileImage: {fileID: 21300000, guid: e1ed5d8cf109cef499a74f0d2c1c765c, type: 3}
   shortBio: Prince Singh
   tip: Sr. Unity Game Developer
   type: 0
